@@ -81,7 +81,7 @@
 
 .header .gnb:hover>ul>li ul {
 
-    height: 240px;
+    height: 300px;
 }
 
 
@@ -254,6 +254,11 @@
     text-align: center;
 }
 
+.main_best .inner .itm .price {
+    text-align: center;
+    word-break: keep-all;
+}
+
 .main_banner {
     padding: 300px 0;
     background: url(../images/main_product01.jpg) no-repeat center center/cover;
@@ -292,13 +297,17 @@
     border: 1px solid #DDD;
 }
 
-.main_product .itm p {
+.main_product .itm strong {
+    display: block;
     margin-top: 16px;
     text-align: center;
     word-break: keep-all;
+
+    font-weight: 600;
 }
 
-.main_best .price {
+.main_product .itm .desc {
+    margin-top: 8px;
     text-align: center;
     word-break: keep-all;
 }
@@ -424,7 +433,7 @@
 
 .footer {
     padding: 80px 0;
-    background: rgb(51, 51, 51);
+    background: rgb(49, 49, 49);
 }
 
 .footer .sns {
